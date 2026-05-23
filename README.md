@@ -1,4 +1,7 @@
-Welcome to the classic **Hangman Game**, This is a beginner-friendly project that helps you understand random, while loop, if-else, strings, lists, and user input/output in Python.
+# 🕹️ Hangman Game (Python Console Edition)
+![Project Logo](https://cdn-icons-png.freepik.com/256/13338/13338262.png?semt=ais_hybrid)
+
+Welcome to the classic **Hangman Game**, recreated in Python for the terminal! This is a beginner-friendly project that helps you understand loops, conditionals, string manipulation, and user input in Python.
 
 ## 📁 Project Structure
 
@@ -8,6 +11,31 @@ hangman-game/
 ├── Hangman_words.py # Contains a list of words for random selection
 ├── README.md # This README file 
 ```
+
+---
+
+## 🚀 Features
+
+- 🔠 **Random Word Selection**  
+  The game pulls a random word from a predefined list in `Hangman_words.py`.
+
+- 🧠 **Letter-by-Letter Guessing**  
+  The user guesses the word one letter at a time.
+
+- 🎨 **ASCII Art Hangman**  
+  Each incorrect guess displays a new part of the stick figure — a visual representation of your remaining lives.
+
+- ✅ **Repeated Guess Detection**  
+  The game notifies the user if a letter has already been guessed.
+
+- 🔄 **Live Word Update**  
+  After each guess, the placeholder updates to reveal correct letters.
+
+- ☠️ **Loss Condition**  
+  The player loses if the hangman is fully drawn (7 incorrect guesses).
+
+- 🏆 **Win Condition**  
+  If the user guesses all the letters correctly before running out of lives, they win!
 
 ---
 
